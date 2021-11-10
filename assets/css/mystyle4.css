@@ -1,0 +1,41 @@
+.text-smart {
+    font-size: "1rem";
+    color: "red"; 
+}
+
+.feature-img {
+    /* width: 300px; */
+    height: 150px;
+}
+
+p.note
+{
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     background-color: #fff;
+     background-image: url(../img/note.png);
+     background-size: 38px 38px;
+     background-position: 10px 10px;
+     background-repeat: no-repeat;
+     border: solid 2px #f19a17;
+     border-radius: 10px;
+     line-height: 18px;
+     overflow: hidden;
+     padding: 15px 30px 15px 60px ;
+     color: #814900;
+     max-width: 80%;
+     margin-top: 10px;
+}
+
+.tokenomics-img {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 992px){
+    .shift-top {
+        padding-bottom: 150px;
+    }
+}
+
+
